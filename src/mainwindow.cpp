@@ -7,7 +7,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     ui->setupUi(this);
-    ui->label->setPixmap(QPixmap(":/image/picture1.jpeg"));
+    ui->label->setPixmap(QPixmap(":/image/picture1.png"));
     ui->label->setScaledContents(true);
 }
 
